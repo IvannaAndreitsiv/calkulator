@@ -23,7 +23,7 @@ function NumPressed (Num)
 
 function Operation (Op) 
 {
-		var Readout = Fcalc.ReadOut.value;
+		let Readout = Fcalc.ReadOut.value;
 		if (FlagNewNum && PendingOp != "=")
 		{
 			Fcalc.ReadOut.value = Currents;
@@ -48,7 +48,7 @@ function Operation (Op)
 	
 function Decimal () 
 {
-		var curReadOut = Fcalc.ReadOut.value;
+		let curReadOut = Fcalc.ReadOut.value;
 		if (FlagNewNum) 
 		{
 			curReadOut = "0.";
