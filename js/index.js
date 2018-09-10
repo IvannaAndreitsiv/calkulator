@@ -1,8 +1,8 @@
 
-var Fcalc = document.calc;
-var Currents = 0;
-var FlagNewNum = false;
-var PendingOp = "";
+let Fcalc = document.calc;
+let Currents = 0;
+let FlagNewNum = false;
+let PendingOp = "";
 
 function NumPressed (Num) 
 {
